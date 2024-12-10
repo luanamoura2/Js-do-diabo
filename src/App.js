@@ -1,21 +1,25 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter, Router } from 'react-router-dom';
-import Menu from './Menu';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Home';
-import Sobre from './Sobre';
+import Historia from './Historia';
+import Contato from './Contato';
+import Cabecalho from './Cabecalho';
+import Rodape from './Rodape';
 
 function App() {
   return (
    <Router>
     <div>
-      <Menu />
-      <div>
+      <Cabecalho />
+      <div id= 'Conteudo'> 
         <Routes>
           <Route path="/" element={<Home/>} />
-          <Route path="/sobre" element={<Sobre/>} />
+          <Route path="/historia" element={<Historia/>} />
+          <Route path="/contato" element={<Contato/>} />
         </Routes>
       </div>
+      <Rodape />
     </div>
    </Router>
     

@@ -2,7 +2,7 @@ import React from "react";
 
 function Rodape() {
     return (
-        <div id="rodape">
+        <div id="Rodape">
         <p> Doceria</p>
         <p> Rua das Azaléias, 2303, Bairro - Girassol </p>
         <p>Telefone: (41) 8765-4904</p>

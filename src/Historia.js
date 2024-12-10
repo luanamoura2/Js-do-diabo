@@ -1,9 +1,11 @@
 import React from "react";
 
-function Home() {
+function História() {
     return (
-       
+        <div id="Historia">
+       <h1> Históriaaaa</h1>
+       </div>
     );
 }
 
-export default Home;
+export default História;

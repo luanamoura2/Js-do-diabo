@@ -1,1 +1,99 @@
-#home {background-color: aquamarine;}
+
+*{
+    margin: 0px;
+}
+ 
+body {
+    background-color: rgb(173, 236, 233) !important;
+}
+
+#Home {
+    background-color: rgb(110, 192, 218);
+    color:rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 30px;
+}
+#Conteudo {
+    background-color:  rgb(173, 236, 233);
+    padding: 30px;
+    height: 500px;
+}
+#Historia {
+    background-color: rgb(83, 200, 204);
+    color:rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 30px;
+}
+
+#Menu {
+    display: flex;
+    background-color: rgb(224, 255, 248);
+    border-radius: 30px;
+    width: 60%;
+    padding: 10px 20px 10px 20px;
+    height: fit-content;
+    justify-content: center;
+    justify-self: center;
+    margin: 8px;
+    text-align: center;
+    
+}
+
+#Menu li {
+    list-style:none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 10px;
+}
+
+#Menu a {
+    text-decoration: none;
+    color: rgb(31, 30, 30);
+    font-size: 25px;
+}
+
+#Cabecalho {
+    background-color: rgb(176, 213, 255);
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px;
+}
+
+#Contato {
+    background-color: rgb(173, 236, 233);
+    color:rgb(0, 0, 0);
+    padding: 20px;
+    display: flex !important ;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    margin: 0;
+    
+   
+}
+
+#Conteudo {
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#Logo {
+    width: 50%; 
+    max-width: 100px; 
+    height: auto; 
+    
+}
+
+#Rodape {
+    background-color: rgb(224, 255, 248);
+    padding: 30px;
+    height: fit-content;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    border-radius: 0;
+    
+    
+}
