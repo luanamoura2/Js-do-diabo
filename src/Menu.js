@@ -6,8 +6,9 @@ function Menu() {
         <nav id='Menu'>
             <ul id='Menu'>
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/historia">História</Link></li>
-                <li><Link to="/contato">Contato</Link></li>
+                <li><Link to="/history">History</Link></li>
+                <li><Link to="/gallery">Gallery</Link></li>
+                <li><Link to="/contact">Contact</Link></li>
             </ul>
         </nav>
     );

@@ -2,8 +2,9 @@ import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Home';
-import Historia from './Historia';
-import Contato from './Contato';
+import History from './History';
+import Contact from './Contact';
+import Gallery from './Gallery';
 import Cabecalho from './Cabecalho';
 import Rodape from './Rodape';
 
@@ -15,8 +16,10 @@ function App() {
       <div id= 'Conteudo'> 
         <Routes>
           <Route path="/" element={<Home/>} />
-          <Route path="/historia" element={<Historia/>} />
-          <Route path="/contato" element={<Contato/>} />
+          <Route path="/history" element={<History/>} />
+          <Route path="/contact" element={<Contact/>} />
+          <Route path="/gallery" element={<Gallery/>} />
+
         </Routes>
       </div>
       <Rodape />

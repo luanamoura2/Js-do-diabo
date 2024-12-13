@@ -1,26 +1,27 @@
-
-*{
+* {
     margin: 0px;
 }
- 
+
 body {
     background-color: rgb(173, 236, 233) !important;
 }
 
 #Home {
     background-color: rgb(110, 192, 218);
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     padding: 20px;
     border-radius: 30px;
 }
+
 #Conteudo {
-    background-color:  rgb(173, 236, 233);
+    background-color: rgb(173, 236, 233);
     padding: 30px;
     height: 500px;
 }
-#Historia {
+
+#History {
     background-color: rgb(83, 200, 204);
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     padding: 20px;
     border-radius: 30px;
 }
@@ -36,11 +37,11 @@ body {
     justify-self: center;
     margin: 8px;
     text-align: center;
-    
+
 }
 
 #Menu li {
-    list-style:none;
+    list-style: none;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     margin: 10px;
@@ -59,16 +60,28 @@ body {
     margin: 10px;
 }
 
-#Contato {
+#Contact {
     background-color: rgb(173, 236, 233);
-    color:rgb(0, 0, 0);
-    padding: 20px;
-    display: flex !important ;
-    justify-content: flex-start !important;
-    align-items: flex-start !important;
-    margin: 0;
-    
+    color: rgb(0, 0, 0);
    
+    display: flex;
+    justify-content: space-between;
+    align-items:left;
+    gap: 20px;
+}
+
+#ContactIframe {
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    width: 850px;
+    height: 550px;
+}
+#ContactForm {
+    border-radius: 20px;
+    grid-column: 1;
+    align-self: center;
+    width: 850px;
+    height: 550px;
 }
 
 #Conteudo {
@@ -77,13 +90,22 @@ body {
     height: auto;
     display: block;
     margin: 0 auto;
+
+}
+
+#Gallery {
+
+    color: rgb(0, 0, 0);
+
+
+
 }
 
 #Logo {
-    width: 50%; 
-    max-width: 100px; 
-    height: auto; 
-    
+    width: 50%;
+    max-width: 100px;
+    height: auto;
+
 }
 
 #Rodape {
@@ -94,6 +116,6 @@ body {
     text-align: center;
     width: 100%;
     border-radius: 0;
-    
-    
+
+
 }
