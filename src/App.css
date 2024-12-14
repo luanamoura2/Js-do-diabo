@@ -11,12 +11,15 @@ body {
     color: rgb(0, 0, 0);
     padding: 20px;
     border-radius: 30px;
+    width: 500px;
+    height: 500px;
 }
 
 #Conteudo {
     background-color: rgb(173, 236, 233);
     padding: 30px;
     height: 500px;
+    border-radius: 20px;
 }
 
 #History {
@@ -62,26 +65,24 @@ body {
 
 #Contact {
     background-color: rgb(173, 236, 233);
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0); 
+    gap: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
    
-    display: flex;
-    justify-content: space-between;
-    align-items:left;
-    gap: 20px;
 }
 
 #ContactIframe {
     border-radius: 20px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    width: 850px;
-    height: 550px;
+    width: 450px;
+    height: 650px;
 }
+
 #ContactForm {
     border-radius: 20px;
-    grid-column: 1;
-    align-self: center;
-    width: 850px;
-    height: 550px;
+    width: 350px;
+    height: 350px;
 }
 
 #Conteudo {
@@ -94,12 +95,25 @@ body {
 }
 
 #Gallery {
-
-    color: rgb(0, 0, 0);
-
-
-
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    column-gap: 80px; 
+     justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
+
+#foto {
+    background-color: rgb(208, 248, 248);
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10%;
+    border: 5px rgb(112, 194, 241) solid;
+    box-shadow: rgba(46, 96, 124, 0.993) 5px 5px 10px 1px;
+  }
 
 #Logo {
     width: 50%;

@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Contato() {
   return (
-    <div id="Contact">
+    <div id="Contact" class="container">
 
       <form action="#" id="ContactForm">
         <label htmlFor="nome">Nome:</label>
