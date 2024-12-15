@@ -15,18 +15,24 @@ body {
     height: 500px;
 }
 
-#Conteudo {
-    background-color: rgb(173, 236, 233);
+#ConteudoHome{
+    background-color: rgb(164, 240, 243);
     padding: 30px;
-    height: 500px;
+    height: 400px;
+    width: 400px;
     border-radius: 20px;
+    align-items: center;
 }
+
 
 #History {
     background-color: rgb(83, 200, 204);
     color: rgb(0, 0, 0);
     padding: 20px;
     border-radius: 30px;
+    text-align: left;
+    margin: 15px;
+    text-align: left;
 }
 
 #Menu {
@@ -77,6 +83,7 @@ body {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     width: 450px;
     height: 650px;
+    margin: 15px;
 }
 
 #ContactForm {
