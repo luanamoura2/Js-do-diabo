@@ -13,6 +13,7 @@ body {
     border-radius: 30px;
     width: 500px;
     height: 500px;
+    margin: 50px;
 }
 
 #ConteudoHome{
@@ -24,15 +25,14 @@ body {
     align-items: center;
 }
 
-
-#History {
-    background-color: rgb(83, 200, 204);
-    color: rgb(0, 0, 0);
-    padding: 20px;
-    border-radius: 30px;
-    text-align: left;
-    margin: 15px;
-    text-align: left;
+#About {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 80px; 
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin:100px;
 }
 
 #Menu {
