@@ -7,6 +7,7 @@ body {
 }
 
 #Home {
+    display: block;
     background-color: rgb(110, 192, 218);
     color: rgb(0, 0, 0);
     padding: 20px;
@@ -14,6 +15,7 @@ body {
     width: 500px;
     height: 500px;
     margin: 50px;
+    justify-items: center;
 }
 
 #ConteudoHome{
@@ -31,8 +33,7 @@ body {
     column-gap: 80px; 
     justify-content: center;
     align-items: center;
-    padding: 30px;
-    margin:100px;
+    margin:20px;
 }
 
 #Menu {
@@ -54,12 +55,13 @@ body {
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     margin: 10px;
+    padding: 10px;
 }
 
 #Menu a {
     text-decoration: none;
     color: rgb(31, 30, 30);
-    font-size: 25px;
+    font-size: 20px;
 }
 
 #Cabecalho {
@@ -70,35 +72,31 @@ body {
 }
 
 #Contact {
-    background-color: rgb(173, 236, 233);
+    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0); 
-    gap: 100px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-   
+    border-radius: 30px;
+    padding: 20px;
+    height: fit-content;
 }
 
+input, label, textarea {
+    width: 100%;
+}
+
+#Enviar{
+    width: fit-content;
+    display: flex;
+    justify-self: center;
+}
 #ContactIframe {
     border-radius: 20px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    width: 450px;
-    height: 650px;
-    margin: 15px;
-}
-
-#ContactForm {
-    border-radius: 20px;
-    width: 350px;
-    height: 350px;
 }
 
 #Conteudo {
-    width: 80%;
-    max-width: 400px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #Gallery {
@@ -137,6 +135,24 @@ body {
     text-align: center;
     width: 100%;
     border-radius: 0;
+}
 
+#AreaContato {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    padding: 30px;
+}
 
+#ConteudoAbout{
+    padding: 30px;
+    display: block;
+    justify-items: center;
+}
+
+h1 {
+    background-color: aliceblue;
+    border-radius: 50px;
+    padding: 30px;
 }

@@ -9,18 +9,20 @@ function Contato() {
   };
 
   return (
-    <div id="Contact">
-      <form onSubmit={handleSubmit}>
-        <label>Nome: </label><br />
-        <input placeholder="Digite aqui..." /><br />
-        <label>Email: </label><br />
-        <input placeholder="Digite aqui..." /><br />
-        <label>CPF: </label><br />
-        <input placeholder="Digite aqui..." /><br />
-        <label>Mensagem: </label><br />
-        <textarea placeholder="Digite aqui..." /><br />
-        <input type="submit" id="Enviar" value="Enviar" /><br />
-      </form>
+    <div id='AreaContato'>
+      <div id="Contact">
+        <form idonSubmit={handleSubmit}>
+          <label>Nome: </label><br />
+          <input placeholder="Digite aqui..." /><br />
+          <label>Email: </label><br />
+          <input placeholder="Digite aqui..." /><br />
+          <label>CPF: </label><br />
+          <input placeholder="Digite aqui..." /><br />
+          <label>Mensagem: </label><br />
+          <textarea placeholder="Digite aqui..." /><br />
+          <input type="submit" id="Enviar" value="Enviar" /><br />
+        </form>
+      </div>
 
       <iframe
         id="ContactIframe"
@@ -30,10 +32,11 @@ function Contato() {
         style={{ border: "0" }}
         allowFullScreen=""
         loading="lazy"
-        referrerPolicy="no-referrer-when-downgrade"
-        
-      />
+        referrerPolicy="no-referrer-when-downgrade">
+      </iframe>
+      
     </div>
+    
   );
 }
 
