@@ -4,7 +4,7 @@ function About() {
     return (
         <div id='ConteudoAbout'>
             <div id='Frase'>
-                <h1>HELLOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO</h1>
+                <h1>This is the about page!</h1>
             </div>
             <div id='About'>
                 <img id='foto' src='/img/img1.jpeg'/>

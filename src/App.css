@@ -148,10 +148,10 @@ input, label, textarea {
 #ConteudoAbout{
     padding: 30px;
     display: block;
-    justify-items: center;
+    justify-items: right;
 }
 
-h1 {
+#ConteudoAbout h1 {
     background-color: aliceblue;
     border-radius: 50px;
     padding: 30px;
